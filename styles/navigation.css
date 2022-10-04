@@ -1,0 +1,42 @@
+.navigation {
+  z-index: 2;
+}
+
+.navigation ul {
+  list-style: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  column-gap: 25px;
+}
+
+.navigation ul li {
+  font-size: 1rem;
+  line-height: 1.25rem;
+
+  color: var(--text-nav);
+  text-transform: uppercase;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  column-gap: 6px;
+
+  padding: 10px 16px;
+  border-radius: 18px;
+  background: rgba(0, 0, 0, 0.32);
+}
+
+.searchBar input {
+  width: 100%;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+
+.searchBar input::placeholder {
+  color: #999;
+  font-weight: 400;
+}

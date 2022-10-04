@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Tom Brady",
+    "number": "12",
+    "position": "QB",
+    "avatar": "/assets/players/tombrady.png",
+    "team": {
+      "logo": "/assets/logos/patriots.png"
+    }
+  },
+  {
+    "name": "Patrick Mahones",
+    "number": "15",
+    "position": "QB",
+    "avatar": "/assets/players/patrick.png",
+    "team": {
+      "logo": "/assets/logos/kansas_city.png"
+    }
+  },
+  {
+    "name": "Aaron Rodgers",
+    "number": "12",
+    "position": "QB",
+    "avatar": "/assets/players/aaron.png",
+    "team": {
+      "logo": "/assets/logos/green_bay.png"
+    }
+  } 
+]

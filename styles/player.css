@@ -1,0 +1,91 @@
+.player {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.player h1 {
+  width: 100%;
+
+  text-align: center;
+  font-size: 220px;
+  line-height: 190px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.player h2 {
+  width: 100%;
+
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+}
+
+.player h2 sup {
+  font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+.player__avatar {
+  position: absolute;
+  bottom: -30px;
+  right: 0;
+
+  width: auto;
+  height: 65vh;
+  margin-top: auto;
+
+  transform-origin: bottom;
+
+  animation-name: animatePlayerAvatar;
+  animation-duration: 500ms;
+  animation-timing-function: ease-in-out;
+}
+
+.player h1 {
+  animation-name: animatePlayerName;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+
+.player.remove h1 {
+  transform: translateX(1400px);
+  animation-name: none;
+}
+
+.player h2 {
+  transform: translateY(500px);
+
+  animation-name: animatePlayerPosition;
+  animation-duration: 500ms;
+  animation-timing-function: ease-in-out;
+  animation-delay: 500ms;
+  animation-fill-mode: forwards;
+}
+
+.player .player__avatar {
+  animation-name: animatePlayerAvatar;
+  animation-duration: 500ms;
+  animation-timing-function: ease-in-out;
+}
+
+.player.remove .player__avatar {
+  opacity: 0;
+  transform: translateX(-800px);
+  animation-name: none;
+}
+
+.player.remove h2 {
+  opacity: 0;
+  animation-name: none;
+}
+
+.player h1, .player h2, .player .player__avatar {
+  transition: all 0.5s;
+}

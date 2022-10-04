@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+  <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Jogadores da NFL</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@600&family=Saira+Semi+Condensed&family=Saira+Stencil+One&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./styles/global.css">
+  </head>
+  <body>
+    <div id="app">
+      <main>
+        <nav class="navigation">
+          <ul>
+            <li onclick="changePlayer(0)">JOGADOR 1</li>
+            <li onclick="changePlayer(1)">JOGADOR 2</li>
+            <li onclick="changePlayer(2)">JOGADOR 3</li>
+            <li>
+              <form class="searchBar">
+                <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7.79167 13.4583C10.9213 13.4583 13.4583 10.9213 13.4583 7.79167C13.4583 4.66205 10.9213 2.125 7.79167 2.125C4.66205 2.125 2.125 4.66205 2.125 7.79167C2.125 10.9213 4.66205 13.4583 7.79167 13.4583Z" stroke="white" stroke-opacity="0.86" stroke-width="1.41667" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M14.875 14.875L11.7938 11.7937" stroke="white" stroke-opacity="0.86" stroke-width="1.41667" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <input type="text" placeholder="Pesquise um jogador">
+              </form>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="player">
+          <h1>Tom <br /> Brady</h1>
+  
+          <h2>
+            QB <sup>#</sup>12
+          </h2>
+
+          <div class="links">
+            <button type="button">History</button>
+            <button type="button">Skills</button>
+
+            <img
+              class="player__team"
+              src="/assets/logos/patriots.png"
+              alt="Logo do time Patriots"
+            >
+          </div>
+
+          <img
+            class="player__avatar"
+            src="/assets/players/tombrady.png"
+            alt="Foto do jogador Tom Brady"
+          />
+        </div>
+      </main>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
