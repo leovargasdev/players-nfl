@@ -12,15 +12,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@600&family=Saira+Semi+Condensed&family=Saira+Stencil+One&display=swap" rel="stylesheet" />
 
     <link rel="stylesheet" href="./styles/global.css">
+
+    <link rel="preload" href="/assets/backgrounds/aaron-rodgers.jpg" as="image">
+    <link rel="preload" href="/assets/backgrounds/patrick-mahones.jpg" as="image">
+    <link rel="preload" href="/assets/backgrounds/tom-brady.jpg" as="image">
   </head>
   <body>
     <div id="app">
       <main>
         <nav class="navigation">
           <ul>
-            <li onclick="changePlayer(0)">JOGADOR 1</li>
-            <li onclick="changePlayer(1)">JOGADOR 2</li>
-            <li onclick="changePlayer(2)">JOGADOR 3</li>
+            <li>
+              <button type="button" onclick="changePlayer(0)">
+                Tom Brady
+              </button>
+            </li>
+            <li>
+              <button type="button" onclick="changePlayer(1)">
+                Patrick Mahones
+              </button>
+            </li>
+            <li>
+              <button type="button" onclick="changePlayer(2)">
+                Aaron Rodgers
+              </button>
+            </li>
             <li>
               <form class="searchBar">
                 <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">

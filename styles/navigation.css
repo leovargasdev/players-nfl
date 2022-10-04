@@ -1,5 +1,6 @@
 .navigation {
   z-index: 2;
+  margin-bottom: 16px;
 }
 
 .navigation ul {
@@ -8,15 +9,19 @@
   display: flex;
   align-items: center;
   justify-content: end;
-  column-gap: 25px;
+  column-gap: 32px;
 }
 
-.navigation ul li {
+.navigation ul li button{
   font-size: 1rem;
   line-height: 1.25rem;
 
   color: var(--text-nav);
   text-transform: uppercase;
+
+  border: 0;
+  cursor: pointer;
+  background: transparent;
 }
 
 .searchBar {

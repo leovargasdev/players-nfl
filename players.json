@@ -4,6 +4,7 @@
     "number": "12",
     "position": "QB",
     "avatar": "/assets/players/tombrady.png",
+    "background": "../assets/backgrounds/tom-brady.jpg",
     "team": {
       "logo": "/assets/logos/patriots.png"
     }
@@ -13,6 +14,7 @@
     "number": "15",
     "position": "QB",
     "avatar": "/assets/players/patrick.png",
+    "background": "../assets/backgrounds/patrick-mahones.jpg",
     "team": {
       "logo": "/assets/logos/kansas_city.png"
     }
@@ -22,6 +24,7 @@
     "number": "12",
     "position": "QB",
     "avatar": "/assets/players/aaron.png",
+    "background": "../assets/backgrounds/aaron-rodgers.jpg",
     "team": {
       "logo": "/assets/logos/green_bay.png"
     }

@@ -27,8 +27,11 @@ function changePlayer(indexPlayer) {
     const playerAvatar = document.querySelector('.player__avatar')
     playerAvatar.setAttribute('src', player.avatar)
 
+    const app = document.getElementById('app')
+
+    app.style['background-image'] = `linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${player.background})`
+
     elementPlayer.classList.remove('remove')
   }, 500)
   
-
 }
